@@ -1,0 +1,30 @@
+{
+  "name": "webdriver-uni-tests",
+  "version": "0.0.1",
+  "description": "Cypress Tests for http://webdriveruniversity.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headless",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-rac2/webdriver-uni-tests.git"
+  },
+  "keywords": [
+    "Cypress",
+    "WebdriverUniversity",
+    "RodrigoCosta",
+    "UEPB",
+    "TestesDeSoftware"
+  ],
+  "author": "Rodrigo Alves Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigo-rac2/webdriver-uni-tests/issues"
+  },
+  "homepage": "https://github.com/rodrigo-rac2/webdriver-uni-tests#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
